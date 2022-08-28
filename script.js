@@ -16,13 +16,13 @@ const services = [
 
 const servicesEL = document.querySelector(".services");
 
-services.forEach(function(service){
+services.forEach(function(chandu){
     servicesEL.innerHTML += `
     <div>
         <div class="service-icon-wrapper">
-            <img src="${service.imageURL}" class="service-icon"/>
+            <img src="${chandu.imageURL}" class="service-icon"/>
         </div>
-        <p class="service-title">${service.name}</p>
+        <p class="service-title">${chandu.name}</p>
     </div>
     `
 });

@@ -77,9 +77,9 @@ body {
 }
 
 .options {
-  padding-left: 31rem;
   display: flex;
-  align-items: flex-start;
+  width: 100%;
+  justify-content: flex-end;
 }
 
 .nav1 {
